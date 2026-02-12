@@ -46,7 +46,7 @@ ycurrent = ycurrent(:, 1:2);
 
 yfreq = neural_rcs_data.Adaptive_StimRateInHz(idxkeep);
 
-%% arrthmicty based control (patient specific threshold, Figure 3A-C)
+%%arrthmicty based control (patient specific threshold, Figure 3A-C)
 
 arr_threshold = 0.09;
 
